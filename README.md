@@ -1,6 +1,6 @@
 # Deep-Convolutional-Neural-Networks-for-Medical-Image-Classification
 
-This project aims to employ several deep learning architectures to conduct a thorough classification analysis of brain MRI scan images and classify them to one of the two classes i.e., tumor or no-tumor. The aim is to attempt to build upon the existing architectures by leveraging concepts such as transfer learning as well as fully convolutional networks to improve them via custom additions. Finally, a comprehensive analysis is produced for each model to weigh the advantages and disadvantages, along with potential for future use.
+This project aims to employ several deep learning architectures to conduct a thorough classification analysis of brain MRI scan images and classify them to one of the two classes i.e., tumor or no-tumor. The aim is to attempt to build upon the existing architectures by leveraging concepts such as transfer learning to improve them via custom additions. Finally, a comprehensive analysis is produced for each model to weigh the advantages and disadvantages, along with potential for future use.
 
 ## Convolutional Neural Networks
 CNNs are a type of neural network architecture that can uncover key information in both time series and image data. For this reason, it is highly valuable for image-related tasks, such as image recognition, object classification and pattern recognition. Compared to the other networks, a CNN delivers better performance with image inputs, and with speech or audio signal inputs. A CNN consists of at least three layers: a convolutional layer, a pooling layer and a fully connected (FC) layer.
@@ -16,10 +16,6 @@ The pooling layer is responsible for reducing the number of parameters in the in
 ### Fully Connected Layer
 
 The fully connected (FC) layer is where image classification happens in the CNN, based on the features extracted in the previous layers. In this layer, all the inputs from the previous layer are connected to every activation unit or node of the next layer. The FC layer is the final layer of the CNN, responsible for classifying the input image into a specific category.
-
-## Fully Convolutional Network
-
-A Fully Convolutional Network (FCN) is a type of deep learning neural network architecture that is designed for image segmentation tasks. Unlike traditional convolutional neural networks (CNNs), which are mainly used for image classification, an FCN takes an input image and produces a pixel-wise segmentation map as output. The architecture of an FCN consists of a series of convolutional layers and pooling layers, followed by upsampling layers that increase the resolution of the feature maps. The final layer of the network is a convolutional layer that produces an output map with the same dimensions as the input image. Each pixel in the output map represents the class label of the corresponding pixel in the input image.
 
 ## Transfer Learning/Fine Tuning
 
@@ -62,8 +58,10 @@ Evaluation metrics are used to measure the quality of the statistical or machine
 
 The results obtained can be summarized by the table below:
 
-![image](https://github.com/HassanMahmoodKhan/Deep-Convolutional-Neural-Networks-for-Medical-Image-Classification/assets/97694796/1429c06a-fc0b-4ca5-9a17-afe9b2ebd5b1)
+![image](https://github.com/HassanMahmoodKhan/Deep-Convolutional-Neural-Networks-for-Medical-Image-Classification/assets/97694796/e6d58b91-d9de-4ed9-adf4-757003913731)
 
 - ResNet50V2 with standard and augmented training data has the highest test set classification score of 90%.
 - ResNet50V2 with augmented data has the highest validation classification accuracy.
-- VGG16 – Fully convolutional has the least BinaryCrossEntropy loss of 0.0035.
+- ResNet50V2 with augmented training data has the least BinaryCrossEntropy loss of 0.0035.
+
+The results depict clearly that the ResNet50V2 is the best model in terms of performance and accuracy among all models.
