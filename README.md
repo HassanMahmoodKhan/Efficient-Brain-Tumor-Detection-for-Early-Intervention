@@ -62,6 +62,6 @@ The results obtained can be summarized by the table below:
 
 - ResNet50V2 with standard and augmented training data has the highest test set classification score of 90%.
 - ResNet50V2 with augmented data has the highest validation classification accuracy.
-- ResNet50V2 with augmented training data has the least BinaryCrossEntropy loss of 0.0035.
+- ResNet50V2 with augmented training data has the least BinaryCrossEntropy loss of 0.1222.
 
 The results depict clearly that the ResNet50V2 is the best model in terms of performance and accuracy among all models.
