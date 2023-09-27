@@ -58,10 +58,8 @@ Evaluation metrics are used to measure the quality of the statistical or machine
 
 The results obtained can be summarized by the table below:
 
-![image](https://github.com/HassanMahmoodKhan/Deep-Convolutional-Neural-Networks-for-Medical-Image-Classification/assets/97694796/e6d58b91-d9de-4ed9-adf4-757003913731)
+![image](https://github.com/HassanMahmoodKhan/Deep-Convolutional-Neural-Networks-for-Medical-Image-Classification/assets/97694796/4a70ee7c-90e6-4bc3-95f2-d9788256e7c2)
 
-- ResNet50V2 with standard and augmented training data has the highest test set classification score of 90%.
-- ResNet50V2 with augmented data has the highest validation classification accuracy.
-- ResNet50V2 with augmented training data has the least BinaryCrossEntropy loss of 0.1222.
+- VGG19 with augmented training data has the highest test set classification score of 86%.
+- VGG16 with augmented training data has the least BinaryCrossEntropy loss of 0.4984.
 
-The results depict clearly that the ResNet50V2 is the best model in terms of performance and accuracy among all models.
