@@ -34,7 +34,7 @@ Brain MRI Images for Brain Tumor Detection. The dataset consists of 253 image sa
 ## Data Preprocessing
 
 I have employed the following steps to preprocess the dataset:
-- Train, Validation, & Test set split
+- Train & Test Split
 - Data Augmentation
 - Feature Scaling
 
