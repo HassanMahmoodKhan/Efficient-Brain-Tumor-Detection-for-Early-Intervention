@@ -56,7 +56,7 @@ Evaluation metrics are used to measure the quality of the statistical or machine
 
 ## Inference Speed
 
-We have performed inferencing for all models using the native Tensorflow implementation and compared it with the ONNX based model conversion, using ONNX Rutime. This was implemented to understand the speed-up for large & complex deep learning models and their viability for productionization under the pretext of high performance computing. Note: This was only performed using a 'CPU' execution provider.
+Performed model inferencing using the native Tensorflow implementation and compared it with the ONNX based model conversion, using ONNX Rutime. This was implemented to understand the speed-up for large & complex deep learning models and their viability for productionization under the pretext of high performance computing. In addition, ONNX converted models have cross-platform support allowing for greater accessibility. Note: This was only performed using a 'CPU' execution provider.
 
 ![image](https://github.com/HassanMahmoodKhan/Deep-Convolutional-Neural-Networks-for-Medical-Image-Classification/assets/97694796/71b49147-9692-4690-a0af-db5f62665f2f)
 
