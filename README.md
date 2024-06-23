@@ -1,4 +1,4 @@
-# Deep-Convolutional-Neural-Networks-for-Medical-Image-Classification
+# Efficient Brain Tumor Detection for Early Intervention with Deep Convolutional Neural Networks
 
 This project aims to employ several deep learning architectures to conduct a thorough classification analysis of brain MRI scan images and classify them to one of the two classes i.e., tumor or no-tumor. The aim is to attempt to build upon the existing architectures by leveraging concepts such as transfer learning to improve them via custom additions. Finally, a comprehensive analysis is produced for each model to weigh the advantages and disadvantages, along with potential for future use.
 
